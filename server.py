@@ -13,7 +13,6 @@ app = Flask(__name__)
 def log_request_info():
     print(">>>", request.method, request.url)
     print("Headers:", request.headers)
-    print("Body:", request.get_data(as_text=True))
 
 
 # ------------------------------------------------------------
